@@ -15,9 +15,9 @@ mongoose.connect(
   }
 );
 
-mongoose.connection.once('open',()=>{
-  console.log("Connected to MongoDB")
-})
+mongoose.connection.once("open", () => {
+  console.log("Connected to MongoDB");
+});
 // MOUNTING 'graphqlHTTP' middleware to '/graphql' PATH/ROUTE
 app.use(
   "/graphql",
