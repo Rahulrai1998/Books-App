@@ -11,6 +11,7 @@ export default function BookList() {
     return <h2>Loading....</h2>
   }
   if(error){
+    console.log(error)
     return <h2>Something went wrong..</h2>
   }
 
@@ -20,7 +21,7 @@ export default function BookList() {
       <ul id="book-list">
         {data.books.map((item) => {
           return <li key={item.id}>{item.name}</li>;
-        })}
+        })} 
       </ul>
     </div>
   );
