@@ -39,7 +39,7 @@ export default function AddBook() {
   return (
     <div>
       <form action="" id="add_book" onSubmit={submitForm}>
-        <div className="filed">
+        <div className="field">
           <label>Book Name : </label>
           <input
             type="text"
@@ -48,7 +48,7 @@ export default function AddBook() {
             }
           />
         </div>
-        <div className="filed">
+        <div className="field">
           <label>Genre : </label>
           <input
             type="text"
@@ -57,7 +57,7 @@ export default function AddBook() {
             }
           />
         </div>
-        <div className="filed">
+        <div className="field">
           <label>Author : </label>
           <select
             onChange={(e) =>

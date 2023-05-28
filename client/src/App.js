@@ -5,7 +5,7 @@ import BookList from "./components/BookList";
 function App() {
   return (
     <div id="main">
-      <h2>Book Store</h2>
+      <h1>Book Store</h1>
       <BookList />
       <AddBook/>
     </div>
